@@ -45,10 +45,10 @@ function App() {
       .catch(err => {
         debugger
       })
-      .setFormValues(initialFormValues)
+      setFormValues(initialFormValues)
   }
 
-  const onInputchange = evt => {
+  const onInputChange = evt => {
     const name = evt.target.name
     const value = evt.target.value
 
@@ -122,7 +122,7 @@ function App() {
         <Route path='/order-form'>
           <OrderForm 
             values={formValues}
-            onInputchange={onInputchange}
+            onInputChange={onInputChange}
             onSubmit={onSubmit}
             disabled={disabled}
             errors={formErrors}
