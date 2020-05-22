@@ -22,7 +22,7 @@ Form validation is the process by which we give users informed feedback when the
 
 3. In 1-2 sentences, define end to end testing.
 
-End to End testing answers the question “can user accomplish this action?”.  These tests focus on UI and mimic how a user might interact with an app, simulating real events like button clicks, scrolls, form submits and pointing out all the non-intuitive parts, or bugs that a user would encounter while using your website.
+End to End testing answers the question “can a user accomplish this action?”.  These tests focus on UI and mimic how a user might interact with an app, simulating real events like button clicks, scrolls, form submits and pointing out all the non-intuitive parts, or bugs that a user would encounter while using your website.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section **will** prevent you from passing this challenge.
 
